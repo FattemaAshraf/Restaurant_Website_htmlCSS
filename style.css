@@ -204,4 +204,50 @@ color: var(--secondary-color);
   margin-left: 5px;
 }
 
-  /* Offers Section end */
+/* Offers Section end */
+/* Menu Section Start  */
+#menu{
+ padding: 5rem 0;
+}
+#menu img {
+   width: 80px;
+   border-radius: 50%;
+   margin-right: 20px;
+ 
+}
+#menu .title{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+#menu .title h2{
+font-size: 40px;
+color: var(--secondary-color);
+}
+
+.menu-items{
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.menu-item div h3 {
+  display: flex;
+  border-bottom: 1px solid var(--secondary-color);
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+#menu .menu-items .menu-item p {
+  margin-top: 10px;
+}
+
+#menu .btn {
+  display: block;
+  margin: auto;
+  border: none;
+  margin-top: 30px;
+}
+/* Menu Section End  */
