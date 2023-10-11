@@ -120,6 +120,7 @@ header .content h1 {
     margin: 20px 0 ;
   }
   /* Header End */
+  /* About start */
 .about-content{
     display: flex;
     justify-content: space-between;
@@ -153,3 +154,54 @@ header .content h1 {
 #about .about-content a {
   margin-top: 2rem;
 }
+  /* About end */
+  /* Offers Section Start */
+
+  .offers-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* gap: 20px; */
+}
+.offers-items img{
+  width: 200px;
+}
+#offers{
+  height: 80vh;
+  background: url("./imgs/offer-background.jpg") center center/cover fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#offers .title{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+#offers .title h2{
+font-size: 40px;
+color: var(--secondary-color);
+}
+
+#offers .offers-items h3 {
+  font-size: 25px;
+  color: #fff;
+  margin: 15px 0;
+}
+
+#offers .offers-items p {
+  color: #fff;
+  font-size: 14px;
+  padding: 0 20px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+#offers .offers-items span {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+  /* Offers Section end */
