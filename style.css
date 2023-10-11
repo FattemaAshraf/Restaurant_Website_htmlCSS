@@ -24,6 +24,11 @@ a {
   ul {
     list-style: none;
   }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+  }
 /* Utility Classes */
 .primary-text {
     color: var(--secondary-color);
@@ -115,4 +120,36 @@ header .content h1 {
     margin: 20px 0 ;
   }
   /* Header End */
-  
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
+}
+#about{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+#about .title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#about .title h2{
+  font-size: 40px;
+}
+
+.about-content img{
+  width: 450px;
+}
+
+#about .about-content p {
+  margin-right: 7rem;
+  line-height: 1.6;
+}
+
+#about .about-content a {
+  margin-top: 2rem;
+}
